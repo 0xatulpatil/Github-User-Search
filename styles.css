@@ -1,1 +1,142 @@
+body{
+    background: rgb(78,109,133);
+    background: linear-gradient(135deg, rgba(78,109,133,1) 0%,#312845 0%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+#main{
+    padding-top:20px;
+}
+.inp{
+    background-color: #382d4e;
+    padding: 20px 20px ;
+    font-family: 'Rubik', sans-serif;
+    margin: px;
+    font-size: 15px;
+    height: 40px;
+    width: 230px;
+    text : #10B9C9;
+    border-radius: 2px;
+    border : 1px solid #10B9C9;
+    box-shadow : 0 5px 10px rgba( 154, 160, 185, 0.05);
+   
+}
+#search{
+    color: #10B9C9;
+    padding: 1px;
+    padding-right: 4px ;
 
+}
+.btn{
+    background-color: #382d4e;
+    font-size: 15px;
+    color: #10B9C9;
+    border: 1px solid #10B9C9;
+    border-radius: 2px;
+    padding: 12px;
+    cursor: pointer;
+}
+.card{
+    background-color: #2A223B;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0,0,0, 0.1);
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 10px;
+    width: 600px;
+    height: 400px;
+}
+.avatar{
+    border: 1px solid #10B9C9;
+    padding: 5px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.image{
+    padding-top: 20px;
+display: flex;
+
+justify-content: center;
+}
+.user-info{
+    color: #8B8CA4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+.name{
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 0px;
+
+}
+.location{
+    font-size: 13px;
+    font-weight: 40000;
+}
+.bio{
+    display: flex;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+.number{
+    display: flex;
+    justify-content: space-around; 
+
+    font-size: 15px;
+    
+}
+.size{
+    font-size: 13px;
+}
+.git-div{
+    padding-top: 30px;
+}
+
+.followers{
+    padding-right: 15px;
+}
+.git-btn{
+    padding-top: 10px;
+    background-color: #2A223B;
+    color:  #10B9C9;
+    padding: 10px; 
+    border: none;
+    border-radius: 2px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    border : 1px solid #10B9C9;
+
+}
+.git-btn :hover {
+    
+    background-color: #10B9C9;
+    color:  #382d4e;
+    
+    
+    
+    
+    cursor: pointer;
+    border : 1px solid #10B9C9;
+
+}
